@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: violet;
+}
+
+#result-box {
+    width: 80%;
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;   
+}
+#red-box {
+    width: 80%;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;   
+}
+
+#sub-button {
+    margin: 10px;
+}
+#yellow-box {
+    width: 80%;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+#blue-box {
+    width: 80%;
+    background-color: blue;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}
