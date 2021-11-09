@@ -14,7 +14,13 @@
 </head>
 <body>
     {% for key, value in weather_link.items %}
-        <h3>{{key}}: {{value}}</h3>
+        {% if key == 'name' %}
+            <h3>{{key}}: {{value}}</h3>
+        {% endif %}
+        {% if key == 'main' %}
+            <h3>{{key}}: {{value[0]}}</h3>
+        {% endif %}
     {% endfor %}
+    {{weather_link}}
 </body>
 </html>

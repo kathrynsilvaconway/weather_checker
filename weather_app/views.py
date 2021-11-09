@@ -19,7 +19,9 @@ def get_weather(request):
         'appid': 'ca9d998adbcd7f78991be5204dd8d5d6'
     }
     weather_link = requests.get(link, params=parameters).json()
-    weather_link = pprint(weather_link)
+    # weather_link = pprint(weather_link)
+    print('CCCCCCCOOOOOOOOOWWWWWW', type(weather_link))
+    print(type(parameters))
     
     context = {
         'weather_link': weather_link
